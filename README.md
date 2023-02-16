@@ -5,6 +5,8 @@ Check original repo for code. We are just using the readme at the momment.
 
 | Commit Type | Title                    | Description                                                                                                 | Emoji | Release                        | Include in changelog |
 |:-----------:|--------------------------|-------------------------------------------------------------------------------------------------------------|:-----:|--------------------------------|:--------------------:|
+|   `done`    | done                 | Marks a commit that finishes a feature. This commit should be complete and bugfree                                                                                               |   🎉   | `major`                        |        `true`        |
+
 |   `wip`    | WIP                 | An incomplete feature or bug fix. Check previous commit for what.                                                                                               |   ⚙️   | `minor`                        |        `true`        |
 |   `feat`    | Features                 | A new feature                                                                                               |   ✨   | `minor`                        |        `true`        |
 |    `fix`    | Bug Fixes                | A bug Fix                                                                                                   |  🐛   | `patch`                        |        `true`        |
