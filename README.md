@@ -69,6 +69,7 @@ conventionalChangelog({config}).pipe(process.stdout);
 
 | Commit Type | Title                    | Description                                                                                                 | Emoji | Release                        | Include in changelog |
 |:-----------:|--------------------------|-------------------------------------------------------------------------------------------------------------|:-----:|--------------------------------|:--------------------:|
+|   `wip`    | WIP                 | An incomplete feature or bug fix. Check previous commit for what.                                                                                               |   ⚙️   | `minor`                        |        `true`        |
 |   `feat`    | Features                 | A new feature                                                                                               |   ✨   | `minor`                        |        `true`        |
 |    `fix`    | Bug Fixes                | A bug Fix                                                                                                   |  🐛   | `patch`                        |        `true`        |
 |   `docs`    | Documentation            | Documentation only changes                                                                                  |  📚   | `patch` if `scope` is `readme` |        `true`        |
